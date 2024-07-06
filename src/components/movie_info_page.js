@@ -8,23 +8,8 @@ import About_movie from "../movie_info_page/about_movie";
 import Caster2 from "../movie_info_page/about_caster2";
 
 function Movie_info_page() {
-  const [position, setPosition] = useState({ latitude: null, longitude: null });
   var value = useSelector((state) => state.counter.value);
   localStorage.setItem("movie_indentyfier_index" , value);
-
-    
-  useEffect(() => {
-    if ("geolocation" in navigator) {
-      navigator.geolocation.getCurrentPosition(function (position) {
-        setPosition({
-          latitude: position.coords.latitude,
-          longitude: position.coords.longitude,
-        });
-      });
-    } else {
-      console.log("Geolocation is not available in your browser.");
-    }
-  }, []);
 
   const [data , setdata] = useState(
       [

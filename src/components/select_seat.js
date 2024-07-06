@@ -104,7 +104,7 @@ function Selct_seat() {
         <>
             <div className="box">
                 <div className="row_1 flex justify-center items-center">
-                    <div className="mr-6 w-1/4" style={{ color: "#1ea83c" }}>A 10$</div>
+                    <div className="mr-6 w-1/4" style={{ color: "#1ea83c" }}>A 100</div>
                     <button className="button_1 w-9 h-9 m-2 border-2 text-black hover:!bg-[#1ea83c] hover:!text-white" style={{ backgroundColor: seat_bg_color[1], color: text_color[1] }} onClick={() => book_my_seat(1)} disabled={avil[1]}>1</button>
                     <button className="button_2 w-9 h-9 m-2 border-2 text-black hover:!bg-[#1ea83c] hover:!text-white" style={{ backgroundColor: seat_bg_color[2], color: text_color[2] }} onClick={() => book_my_seat(2)} disabled={avil[2]}>2</button>
                     <button className="button_3 w-9 h-9 m-2 border-2 text-black hover:!bg-[#1ea83c] hover:!text-white" style={{ backgroundColor: seat_bg_color[3], color: text_color[3] }} onClick={() => book_my_seat(3)} disabled={avil[3]}>3</button>
@@ -117,7 +117,7 @@ function Selct_seat() {
                     <button className="button_10 w-9 h-9 m-2 border-2 text-black hover:!bg-[#1ea83c] hover:!text-white" style={{ backgroundColor: seat_bg_color[10], color: text_color[10] }} onClick={() => book_my_seat(10)} disabled={avil[10]}>10</button>
                 </div>
                 <div className="row_2 flex justify-center items-center">
-                    <div className="mr-6 w-1/4" style={{ color: "#1ea83c" }}>B 20$</div>
+                    <div className="mr-6 w-1/4" style={{ color: "#1ea83c" }}>B 200</div>
                     <button className="button_11 w-9 h-9 m-2 border-2 text-black hover:!bg-[#1ea83c] hover:!text-white" style={{ backgroundColor: seat_bg_color[11], color: text_color[11] }} onClick={() => book_my_seat(11)} disabled={avil[11]}>11</button>
                     <button className="button_12 w-9 h-9 m-2 border-2 text-black hover:!bg-[#1ea83c] hover:!text-white" style={{ backgroundColor: seat_bg_color[12], color: text_color[12] }} onClick={() => book_my_seat(12)} disabled={avil[12]}>12</button>
                     <button className="button_13 w-9 h-9 m-2 border-2 text-black hover:!bg-[#1ea83c] hover:!text-white" style={{ backgroundColor: seat_bg_color[13], color: text_color[13] }} onClick={() => book_my_seat(13)} disabled={avil[13]}>13</button>
@@ -130,7 +130,7 @@ function Selct_seat() {
                     <button className="button_20 w-9 h-9 m-2 border-2 text-black hover:!bg-[#1ea83c] hover:!text-white" style={{ backgroundColor: seat_bg_color[20], color: text_color[20] }} onClick={() => book_my_seat(20)} disabled={avil[20]}>20</button>
                 </div>
                 <div className="row_3 flex justify-center items-center">
-                    <div className="mr-6 w-1/4" style={{ color: "#1ea83c" }}>C 30$</div>
+                    <div className="mr-6 w-1/4" style={{ color: "#1ea83c" }}>C 300</div>
                     <button className="button_21  w-9 h-9 m-2 border-2 text-black hover:!bg-[#1ea83c] hover:!text-white" style={{ backgroundColor: seat_bg_color[21], color: text_color[21] }} onClick={() => book_my_seat(21)} disabled={avil[21]}>21</button>
                     <button className="button_22 w-9 h-9 m-2 border-2 text-black hover:!bg-[#1ea83c] hover:!text-white" style={{ backgroundColor: seat_bg_color[22], color: text_color[22] }} onClick={() => book_my_seat(22)} disabled={avil[22]}>22</button>
                     <button className="button_23 w-9 h-9 m-2 border-2 text-black hover:!bg-[#1ea83c] hover:!text-white" style={{ backgroundColor: seat_bg_color[23], color: text_color[23] }} onClick={() => book_my_seat(23)} disabled={avil[23]}>23</button>
