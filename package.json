@@ -1,15 +1,30 @@
 {
+<<<<<<< HEAD
   "name": "image_detection",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@tensorflow-models/coco-ssd": "^2.2.3",
     "@tensorflow/tfjs": "^4.22.0",
+=======
+  "name": "book_my_movie",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.2.5",
+>>>>>>> 2bb11bb2d88e3f33e52fd55a04e02e50a200cc22
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+<<<<<<< HEAD
+=======
+    "react-icons": "^5.2.1",
+    "react-owl-carousel": "^2.3.3",
+    "react-redux": "^9.1.2",
+    "react-router-dom": "^6.24.0",
+>>>>>>> 2bb11bb2d88e3f33e52fd55a04e02e50a200cc22
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -36,5 +51,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+<<<<<<< HEAD
+=======
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.4"
+>>>>>>> 2bb11bb2d88e3f33e52fd55a04e02e50a200cc22
   }
 }
